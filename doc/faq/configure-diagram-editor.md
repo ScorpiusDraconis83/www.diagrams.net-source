@@ -275,7 +275,7 @@ Atlassian administrators can enable it in the draw.io app configuration in Confl
 
 ## Additional options for desktop app
 
-* ``desktopAutoSync``: Automatically synchronize diagrams when the local file is changed externally. The default is ``false``.
+* ``desktopAutoSync``: Automatically synchronize diagrams when the local file is changed externally and autosave is on. The default is ``true``.
 
 ## Additional options for Confluence Server and Data Center
 
