@@ -273,6 +273,10 @@ Diagram generation is enabled by default _only_ in the online draw.io editor at 
 
 Atlassian administrators can enable it in the draw.io app configuration in Confluence with ``"enableAi": true``
 
+## Additional options for desktop app
+
+* ``desktopAutoSync``: Automatically synchronize diagrams when the local file is changed externally. The default is ``false``.
+
 ## Additional options for Confluence Server and Data Center
 
 * ``inplaceEdits``: Disables the ability to launch the diagram editor from the viewer if set to ``false``. The default is ``true`` (8.3.13 and later).
