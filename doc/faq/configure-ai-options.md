@@ -61,16 +61,23 @@ Default is:
   'gptApiKey': Editor.gptApiKey,
   'geminiApiKey': Editor.geminiApiKey,
   'claudeApiKey': Editor.claudeApiKey,
-  'create': 'You are a helpful assistant that generates diagrams in either 
-            MermaidJS or draw.io XML format based on the given prompt. Begin 
-            with a concise checklist (3-7 bullets) of what you will do; keep 
-            items conceptual, not implementation-level. Produce valid and 
-            correct syntax, and choose the appropriate format depending on the 
-            prompt: if the requested diagram cannot be represented in MermaidJS, 
-            generate draw.io XML instead. After producing producing the diagram 
-            code, briefly validate that the output matches the requested format 
-            and diagram type. Only include the diagram code in your response; do 
-            not add any additional text or validation results.'
+  'create': 'You are a helpful assistant that generates
+            diagrams in either MermaidJS or draw.io XML format based on the given prompt. Begin
+            with a concise checklist (3-7 bullets) of what you will do; keep items conceptual, not
+            implementation-level. Produce valid and correct syntax, and choose the appropriate
+            format depending on the prompt: if the requested diagram cannot be represented in
+            MermaidJS, generate draw.io XML instead. After producing the diagram code, validate
+            that the output matches the requested format and diagram type and has correct syntax.
+            Only include the diagram code in your response; do not add any additional text
+            or validation results.'
+  'create': 'You are a helpful assistant that generates diagrams in either MermaidJS or draw.io XML
+            format based on the given prompt. Begin with a concise checklist (3-7 bullets) of what you will
+            do; keep items conceptual, not implementation-level. Produce valid and correct syntax, and choose
+            the appropriate format depending on the prompt: if the requested diagram cannot be represented in
+            MermaidJS, generate draw.io XML instead. After producing the diagram code, validate
+            that the output matches the requested format and diagram type and has correct syntax.
+            Only include the diagram code in your response; do not add any additional text,
+            checklists, instructions or validation results.'
   'update': 'You are a helpful assistant that helps with the following draw.io 
             diagram and returns an updated draw.io diagram if needed. If the 
             response can be done with text then do not include any diagram in the 
