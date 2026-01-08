@@ -74,6 +74,8 @@ The configuration is represented as a [JSON (JavaScript Object Notation) string]
 * ``customColorSchemes``: Colour schemes to be added before ``defaultColorSchemes`` (9.2.4 and later).
 <br /><img src="/assets/img/blog/style-colour-palette.png" style="width=100%;max-width:200px;height:auto;" alt="The default colour schemes in draw.io modify the style colour palette">
 
+* ``defaultTextStyle``: Default style for Text elements in sidebar, toolbar, menus and shape picker. Default value is ``text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;``. Note that elements added via the shape picker are additionally modified to include automatic sizing. To disable that, append ``resizable=1;autosize=0;`` to the style. To apply automatic sizing to all new text elements, append ``resizable=0;autosize=1;`` to the style.
+
 * ``defaultVertexStyle`` or ``defaultEdgeStyle``: Defines the initial default styles for vertices and edges (connectors). Note that the styles defined here are copied to the styles of new cells, for each cell. This means that these values override everything else that is inherited from other styles or themes (which may be supported at a later time). Therefore, it is recommended to use a minimal set of values for the default styles. To find the key/value pairs to be used, set the style in the application and find the key and value via _Edit Style_ (``Ctrl+E``) (6.5.2 and later).
 <br />For example, to assign a default ``fontFamily`` of ``Courier New`` to all edges and vertices (and override all other default styles), use ``{"defaultVertexStyle": {"fontFamily": "Courier New"}, "defaultEdgeStyle": {"fontFamily": "Courier New"}}``.
 
