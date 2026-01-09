@@ -264,6 +264,8 @@ browser supports it.
 
 * ``foreignObjectImages``: Specifies if foreignObject alternate content should be replaced with an image of the HTML text. Default is ``true``.
 
+* ``removeImageMetadata``: Specifies if metadata should be removed from images. Default is ``true``.
+
 ## AI diagram generation support and customisation
 
 Configure your own LLM backends, generation actions and other other options for AI-powered diagram generation in draw.io through various configuration parameters.
