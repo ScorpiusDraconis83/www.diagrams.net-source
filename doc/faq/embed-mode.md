@@ -36,7 +36,7 @@ If ``autosave`` is enabled, the editor will send the current XML in an ``{event:
 
 The XML in the load message is displayed and an ``{event: 'load'...}`` is returned with some data about the size of the diagram. The XML in this message can be any supported XML representation of the diagram including SVG or [PNG files with embedded XML](/blog/xml-in-png.html). The old parameter name to pass PNG+XML ``xmlpng`` can still be used.
 
-Alternatively, you can add a descriptor object to the load message that imports specific data formats, e.g. ``{action: 'load', descriptor: {format: 'csv', data: ...}}`` where ``data`` is the string from the CSV import dialog.
+Alternatively, you can add a descriptor object to the load message that imports specific data formats, i.e. ``{action: 'load', descriptor: {format: 'csv', data: ...}}`` where ``data`` is a string from the CSV import dialog or ``descriptor: {format: 'mermaid', data: ...}`` where ``data`` is the MermaidJS code.
 
 **Note:** For XML, all supported file formats can be used, including PNG+XML, the data part of an SVG data URI with UTF8 encoding, or the complete SVG or PNG data URI with base64 encoding. For all ``.vsd*`` files, a data URI with a
 ``data:application/vnd.visio;base64`` prefix must be used. Lucidchart and Gliffy files are represented as a JSON string.
