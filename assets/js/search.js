@@ -80,7 +80,7 @@
         moreBlock.style.display = 'none';
 
         var req = new XMLHttpRequest();
-        req.open('GET', 'https://www.diagrams.net/doSearch?q=' + 
+        req.open('GET', 'doSearch?q=' + 
                 encodeURIComponent(search) + '&return=title,url&highlight.content={format:%20%27text%27}&start=' + start
                 + (srcPage? '&src=' + srcPage : '')); //Note: srcPage is pass-through parameter that is already encoded
         
