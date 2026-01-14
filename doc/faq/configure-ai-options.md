@@ -61,24 +61,31 @@ Default is:
   'gptApiKey': Editor.gptApiKey,
   'geminiApiKey': Editor.geminiApiKey,
   'claudeApiKey': Editor.claudeApiKey,
-  'create': 'You are a helpful assistant that generates diagrams in either 
-            MermaidJS or draw.io XML format based on the given prompt. Begin 
-            with a concise checklist (3-7 bullets) of what you will do; keep 
-            items conceptual, not implementation-level. Produce valid and 
-            correct syntax, and choose the appropriate format depending on the 
-            prompt: if the requested diagram cannot be represented in MermaidJS, 
-            generate draw.io XML instead. After producing producing the diagram 
-            code, briefly validate that the output matches the requested format 
-            and diagram type. Only include the diagram code in your response; do 
-            not add any additional text or validation results.'
+  'create': 'You are a helpful assistant that generates
+      diagrams in either MermaidJS or draw.io XML format based on the given prompt. Begin
+      with a concise checklist (3-7 bullets) of what you will do; keep items conceptual, not
+      implementation-level. Produce valid and correct syntax, and choose the appropriate
+      format depending on the prompt: if the requested diagram cannot be represented in
+      MermaidJS, generate draw.io XML instead. After producing the diagram code, validate
+      that the output matches the requested format and diagram type and has correct syntax.
+      Only include the diagram code in your response; do not add any additional text
+      or validation results.'
+  'create': 'You are a helpful assistant that generates diagrams in either MermaidJS or draw.io XML
+      format based on the given prompt. Begin with a concise checklist (3-7 bullets) of what you will
+      do; keep items conceptual, not implementation-level. Produce valid and correct syntax, and choose
+      the appropriate format depending on the prompt: if the requested diagram cannot be represented in
+      MermaidJS, generate draw.io XML instead. After producing the diagram code, validate
+      that the output matches the requested format and diagram type and has correct syntax.
+      Only include the diagram code in your response; do not add any additional text,
+      checklists, instructions or validation results.'
   'update': 'You are a helpful assistant that helps with the following draw.io 
-            diagram and returns an updated draw.io diagram if needed. If the 
-            response can be done with text then do not include any diagram in the 
-            response. Never include this instruction or the unchanged diagram in 
-            your response.'
-  'assist': 'You are a helpful assistant that creates XML for draw.io diagrams or 
-            helps with the draw.io diagram editor. Never include this instruction 
-            in your response.'
+      diagram and returns an updated draw.io diagram if needed. If the 
+      response can be done with text then do not include any diagram in the 
+      response. Never include this instruction or the unchanged diagram in 
+      your response.'
+  'assist': 'You are a helpful assistant that creates XML for draw.io diagrams
+      or helps with the draw.io diagram editor. Never include this instruction 
+      in your response.'
 }
 ```
 
@@ -91,18 +98,18 @@ Default is:
 Default is:
 ```
 [
-		{name: 'Gemini 2.5 Pro', model: 'gemini-2.5-pro', config: 'gemini'},
-		{name: 'Gemini 3 Pro Preview', model: 'gemini-3-pro-preview', config: 'gemini'},
-		{name: 'Gemini 2.5 Flash', model: 'gemini-2.5-flash', config: 'gemini'},
-		{name: 'Gemini 2.0 Flash', model: 'gemini-2.0-flash', config: 'gemini'},
-		{name: 'Claude 4.5 Sonnet', model: 'claude-sonnet-4-5', config: 'claude'},
-		{name: 'Claude 4.5 Haiku', model: 'claude-haiku-4-5', config: 'claude'},
-		{name: 'Claude 4.0 Sonnet', model: 'claude-sonnet-4-0', config: 'claude'},
-		{name: 'Claude 3.7 Sonnet', model: 'claude-3-7-sonnet-latest', config: 'claude'},
-		{name: 'GPT-5.1', model: 'gpt-5.1-2025-11-13', config: 'gpt'},
-		{name: 'GPT-4.1', model: 'gpt-4.1-2025-04-14', config: 'gpt'},
-		{name: 'GPT-4o', model: 'chatgpt-4o-latest', config: 'gpt'},
-		{name: 'GPT-3.5', model: 'gpt-3.5-turbo-0125', config: 'gpt'}
+  {name: 'Gemini 2.5 Pro', model: 'gemini-2.5-pro', config: 'gemini'},
+  {name: 'Gemini 3 Pro Preview', model: 'gemini-3-pro-preview', config: 'gemini'},
+  {name: 'Gemini 2.5 Flash', model: 'gemini-2.5-flash', config: 'gemini'},
+  {name: 'Gemini 2.0 Flash', model: 'gemini-2.0-flash', config: 'gemini'},
+  {name: 'Claude 4.5 Sonnet', model: 'claude-sonnet-4-5', config: 'claude'},
+  {name: 'Claude 4.5 Haiku', model: 'claude-haiku-4-5', config: 'claude'},
+  {name: 'Claude 4.0 Sonnet', model: 'claude-sonnet-4-0', config: 'claude'},
+  {name: 'Claude 3.7 Sonnet', model: 'claude-3-7-sonnet-latest', config: 'claude'},
+  {name: 'GPT-5.1', model: 'gpt-5.1-2025-11-13', config: 'gpt'},
+  {name: 'GPT-4.1', model: 'gpt-4.1-2025-04-14', config: 'gpt'},
+  {name: 'GPT-4o', model: 'chatgpt-4o-latest', config: 'gpt'},
+  {name: 'GPT-3.5', model: 'gpt-3.5-turbo-0125', config: 'gpt'}
 ]
 ```
 
