@@ -115,7 +115,7 @@ Both editors can style text within labels. In draw.io, you may need to enable th
 
 ## Working with layers
 
-In draw.io, open the [layers dialog](/doc/layers.html) via _View > Layers_ in the menu. WHen you drag one layer above another in this list, it will raise the shapes on that layer above those on the layers below. To move selected shapes to a new layer, click on the three vertical dots and select the target layer. 
+In draw.io, open the [layers dialog](/doc/layers.html) via _View > Layers_ in the menu. When you drag one layer above another in this list, it will raise the shapes on that layer above those on the layers below. To move selected shapes to a new layer, open the layers dialog menu (three horizontal lines), click on _Move Selection to_ and select the target layer. 
 
 In Gliffy, open the layers panel via _Layers_ in the toolbar. You can't change the order of the layers in this list. Move shapes between layers via the right-click context menu on each shape.
 

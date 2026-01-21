@@ -77,13 +77,15 @@ In the layers dialog:
 
 * **Add a new layer:** Click on the plus icon at the bottom.
 * **Rename a layer:** Double-click on a layer, then enter its new name.
-* **Duplicate a layer:** Click on the icon that looks like plus in a box - this will copy of all of the shapes on that layer to a new layer.
+* **Duplicate a layer:** Select the layer, then in the Layers dialog, open the menu (three horizontal lines) and select _Current Layer > Duplicate_.
 * **Delete a layer:** Click on the trash icon.
-* **Move shapes to another layer:** Select the shapes you want to move, then click the _Move selection to_ icon (it looks like a box with an arrow going into it). Select the layer you want to move the shapes to.
-* **Display or hide a layer:** Click on the checkbox next to the layer's name.
+* **Move shapes to another layer:** Select the shapes you want to move, then in the Layers dialog emnu, click on _Current Layer > Move Selection to_ and choose the target layer.
+* **Display or hide a layer:** Click on the eye next to the layer's name.
 * **Lock a layer:** If you want to make sure nothing on a layer can be edited, click on the lock icon next to the layer's name. This locks all of the shapes on that layer, as well as whether the layer itself is hidden or not.
 
 **Note:** Make sure you have clicked on (selected) the layer you want to add shapes to - it's easy to add shapes to the wrong layers.  
+
+[Learn more about working with layers](/doc/layers.html)
 
 ## Office floorplan template
 

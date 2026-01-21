@@ -37,7 +37,7 @@ There are so many different ways you can design a t-chart in draw.io. If you wan
 
 Divide the drawing canvas into two sides and use rectangles or sticky note shapes for each point.
 
-When multiple people are editing a diagram simultaneously, place the divider and labels on a locked background [layer](/doc/layers.html). A second layer lets people add note shapes without unexpectedly changing the 'background'.
+When multiple people are editing a diagram simultaneously, place the divider and labels on a locked background [layer](/doc/layers.html). A second [layer](/doc/layers.html) lets people add note shapes without unexpectedly changing the 'background'.
 <br />[<img src="/assets/img/blog/t-chart-sticky-notes.png" style="width=100%;max-width:600px;height:auto;" alt="Use sticky notes in a t-chart in draw.io to collaboratively brainstorm with your team">](https://viewer.diagrams.net/?lightbox=1&page=0&highlight=0000ff&edit=_blank&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fexamples%2Ft-chart-examples.drawio)
 
 

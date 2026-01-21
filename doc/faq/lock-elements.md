@@ -5,7 +5,7 @@ faq: true
 categories: [Features]
 ---
 
-Locking elements in your diagram mean they can not be edited, connected to, or moved around the drawing canvas.
+Locked elements in your diagram can not be edited, connected to, or moved around the drawing canvas.
 
 1. Select the shape or shapes you wish to lock.
 2. Select _Edit > Lock/Unlock_ from the menu. When an element of your diagram is locked, you'll see a dashed outline when you select it instead of the usual selection outline.
