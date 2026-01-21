@@ -56,12 +56,12 @@ When you click on a shape that is used as a toggle and it exists on the layer or
 ### Copy the layer ID
 
 1. Select _View > Layers_ or press ``Ctrl+Shift+L`` / ``Cmd+Shift+L`` to display the _Layers_ dialog if you don't see it.
-2. Select a layer, then click on the _Edit Data_ in the _Layers_ dialog (three vertical dots). 
+2. Select a layer, then in the Layers dialog menu (three horizontal bars), select _Current Layer > Edit Data_. 
 <br /><img src="/assets/img/blog/interactive-diagram-get-layer-id.png" style="width:100%; max-width:200px;height:auto;" alt="Edit the metadata of the layer to find its layer ID">
-3. Copy the layer _ID_ - the long string of numbers and letters. 
+1. Copy the layer _ID_ - the long string of numbers and letters. 
 <br /><img src="/assets/img/blog/interactive-diagram-get-layer-id2.png" style="width:100%; max-width:400px;height:auto;" alt="Copy the layer ID so you can build a custom link">
 
-**Tip:** If you want to toggle shapes instead of a layer, press ``Ctrl+M`` or ``Cmd+M`` to edit the shape's metadata, then copy its _ID_ (a short number).
+**Tip:** If you want to toggle a single shape instead of a layer, press ``Ctrl+M`` or ``Cmd+M`` to edit the shape's metadata, then copy its _ID_ (a short number).
 
 ### Build the custom link
 

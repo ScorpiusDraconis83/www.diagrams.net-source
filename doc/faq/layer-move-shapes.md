@@ -11,12 +11,12 @@ Use layers to add structure to your diagrams and make them interactive.
 
 **Tip:** By default all shapes on a new diagram are added to the _Background_ layer. 
 
-You can move shapes and connectors from one layer to another via the layers dialog.
+You can move shapes and connectors from one layer to another via the Layers dialog.
 
 1. Select the shapes, connectors and text you want to move to another layer. 
-2. In the layers dialog, click on the _Move selection to_ icon (a box with an arrow going into it vertically), then select the layer you want to move it to.
+2. Click on the Layers dialog menu (three horizontal lines), then on _Move Selection to_ and choose the layer you want to move the selected diagram elements to.
 
-<img src="/assets/img/blog/shapes-move-layers.png" style="max-width:100%;height:auto;" alt="Move the selected shapes to another layer via the Layers dialog">
+<img src="/assets/img/blog/shapes-move-layers.png" style="max-width:100%;height:auto;" alt="Move the selected shapes to another layer via the Layers dialog menu">
 
 Now you can interact with your diagram by displaying and hiding the layers. 
 

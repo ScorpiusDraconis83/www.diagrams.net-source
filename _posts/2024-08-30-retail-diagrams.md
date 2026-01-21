@@ -49,13 +49,13 @@ Keep your floor plan separate from customer paths and sales data by using layers
 
 **Add shapes to a layer:** Make sure you select the layer you want to add a shape or connector to - the currently selected layer is indicated with bold text and a different background colour (blue in light mode, grey in dark mode). 
 
-For example, the _customer path_ layer has been selected in the dark mode screenshot below.
+For example, the _sales_ layer has been selected in the dark mode screenshot below.
 <br /><img src="/assets/img/blog/retail-diagrams-layers-dark.png" style="width=100%;max-width:200px;height:auto;" alt="Use layers to organise the information in your retail diagrams">
 
 When you select a shape, a dot will appear to the right of the layer it is on. Note that you can select shapes that are on other layers - for example, the selected green hotspot in the screenshot below is on the _sales_ layer, but currently the _floor plan_ layer is selected.
 
-**Move shapes to another layer:** Select shapes and connectors, then click the vertical dots and select the target layer to move them.
-<br /><img src="/assets/img/blog/retail-diagrams-shapes-move-layers.png" style="width=100%;max-width:300px;height:auto;" alt="Select shapes and move them to another layer via the three vertical dots in the Layers dialog in draw.io">
+**Move shapes to another layer:** Select shapes and connectors, then in the Layers dialog menu (three horizontal lines), click on _Move Selection to_ and select the target layer.
+<br /><img src="/assets/img/blog/retail-diagrams-shapes-move-layers.png" style="width=100%;max-width:300px;height:auto;" alt="Select shapes and move them to another layer via the Layers dialog menu > Move Selection to">
 
 [Learn more about working with layers](/doc/layers.html)
 

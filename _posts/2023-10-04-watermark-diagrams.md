@@ -47,11 +47,11 @@ A second way to watermark your diagrams is to add it to a layer that is placed o
 1. Select the _View_ tool on the left of the toolbar and select "Layers" to open the Layers dialog, or press ``Ctrl+Shift+L``.
 <br /><img src="/assets/img/blog/watermark-layers-dialog.png" style="width=100%;max-width:300px;height:auto;" alt="Change the opacity of all shapes and images in your watermark to make it more or less obvious">
 2. To add a new layer to hold your watermark, click the _+_ in the _Layers_ dialog. Double click on a layer to rename it. 
-3. Click on the three vertical dots, and move your selected watermark shapes and images to the correct layer.
+3. Select the watermark, then in the Layers dialog menu (three horizontal lines), select _Move Selection to_ and choose the target layer.
 <br /><img src="/assets/img/blog/watermark-move-layers.png" style="width=100%;max-width:300px;height:auto;" alt="Change the opacity of all shapes and images in your watermark to make it more or less obvious">
-4. Drag the watermark layer to the top or the bottom of the list of layers to move the watermark to the front or the back of your diagram.
+1. Drag the watermark layer to the top or the bottom of the list of layers to move the watermark to the front or the back of your diagram. Alternatively, select the watermark layer, open the _Layers dialog menu, click on _Current Layer_ and move it _To Front_ or _To Back_.
 <br /><img src="/assets/img/blog/watermark-floorplan-layers.gif" style="width=100%;max-width:400px;height:auto;" alt="A locked shape in draw.io cannot be cloned or connected to, while non-moveable and non-resizeable can (via shape properties)">
-5. Finally, click on the padlock icon to the left of the watermark layer to lock it and prevent anyone from editing it by mistake. The layer name will turn red when locked.
+1. Finally, click on the padlock icon to the left of the watermark layer to lock it and prevent anyone from editing it by mistake. The layer name will turn red when locked and the padlock will close.
 <br /><img src="/assets/img/blog/watermark-lock-layer.png" style="width=100%;max-width:300px;height:auto;" alt="Lock the watermark layer to prevent any unintended changes">
 
 [Open this example in draw.io](https://app.diagrams.net/?lightbox=1&highlight=0000ff&page=1&edit=_blank&layers=1&nav=1&title=#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-diagrams%2Fdev%2Fblog%2Fwatermark-three-examples.drawio)

@@ -97,6 +97,6 @@ No two people will draw the same concept map as everyone has different gaps in t
 
 Either draw the map together - in draw.io, use the [real-time collaborative editing feature](/blog/real-time-collaboration-diagrams.html) - or have each team member draw their own concept maps and bring them together in one diagram. Drag and drop each diagram onto its own page in a multi-page diagram. 
 
-Alternatively, if you want an immediate visual comparison, drag and drop each person's diagram into a new layer on the same page. You can show or hide layers via the layers dialog.
+Alternatively, if you want an immediate visual comparison, drag and drop each person's diagram into a new layer on the same page. You can show or hide layers via the Layers dialog (_View > Layers_ or press ``Ctrl+Shift+L`` / ``Cmd+Shift+L``).
 
 [Learn more about working with layers in draw.io](/doc/layers.html)

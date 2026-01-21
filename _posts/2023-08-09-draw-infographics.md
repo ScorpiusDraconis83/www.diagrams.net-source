@@ -57,7 +57,7 @@ In this example, we'll use four layers:
 
 Click _+_ to add a layer and double click on the layer name to rename it. 
 
-When you select a shape, you'll see a dot next to the layer it is currently assigned. Move the selected shape from one layer to another via the vertical dots (_Move selection to_) and selecting a different layer. 
+When you select a shape, you'll see a dot next to the layer it is currently assigned. Move the selected shape from one layer to another via Layers dialog menu - click on the three horizontal bars, then _Move selection to_, and select the target layer. 
 <br /><img src="/assets/img/blog/freehand-infographic-layers-dialog.png" style="width=100%;max-width:600px;height:auto;" alt="Layers in draw.io make it easier to assemble an infographic">
 
 It's easier to build your infographic layer by layer - click the eye icon next to any layer to hide it from view. Then you won't accidentally add shapes to that layer. 

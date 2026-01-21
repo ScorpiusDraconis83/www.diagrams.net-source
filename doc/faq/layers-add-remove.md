@@ -23,10 +23,10 @@ To add shapes to your layer, make sure you have selected it in the _Layers_ dial
 
 ## Remove an existing layer
 
-**Important:** Make sure you have moved the shapes and connectors you want to keep in your diagram to another layer before you delete it. Removing a layer also removes all of its contents.
+**Important:** Make sure you have moved the shapes and connectors you want to keep in your diagram to another layer before you delete it. Removing a layer also deletes all of its contents.
 
-1. In the _Layers_ dialog, click on the layer you want to delete so that it is highlighted blue. 
-2. Click on _Remove_ (rubbish bin) at the bottom left of the _Layers_ dialog.
+1. In the _Layers_ dialog, click on the layer you want to delete so that it is highlighted. 
+2. Click on _Delete_ (rubbish bin) at the bottom of the _Layers_ dialog.
 
 <img src="/assets/img/blog/layer-remove.png" style="max-width:100%;height:auto;" alt="Select a layer, then click on the rubbish bin icon to delete it and all of the shapes/connectors it contains">
 

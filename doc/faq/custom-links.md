@@ -60,8 +60,8 @@ This shows all cells with a tag and then hides all cells with the tags ``pipe`` 
 * **Shape**: Right-click on a shape, select _Edit Data_, or select a shape then use the keyboard shortcut ``Ctrl+M`` on Windows or ``Cmd+M`` on macOS.
 <br /><img src="/assets/img/blog/id-shape.png" style="width:100%; max-width:300px;height:auto;" alt="Edit Data on a shape or a page will show you its ID">
 * **Page**: Make sure nothing is selected to get the ID of a page, then press ``Ctrl+M`` on Windows or ``Cmd+M`` on macOS.
-* **Layer**: Select _View > Layers_ from the menu to see the Layers dialog. Click on the three vertical dots (_Edit Data_) to see the ID of the selected layer.
-<br /><img src="/assets/img/blog/layers-edit-data.png" style="width:100%; max-width:200px;height:auto;" alt="Click Edit Data in the Layers dialog to see the ID of a selected layer">
+* **Layer**: Select _View > Layers_ from the menu to see the Layers dialog. Select the layer, open the Layers menu (three horizontal lines), then select _Current Layer > Edit Data_.
+<br /><img src="/assets/img/blog/layers-edit-data.png" style="width:100%; max-width:200px;height:auto;" alt="Select Current Layer > Edit Data via the Layers dialog menu to see the ID of a selected layer">
 
 When you view the diagram, the custom links are shown as a tooltip when you select the shape with the label ``Action``. When you click on the link, the visible state of the diagram elements are updated and the diagram is saved.
 
