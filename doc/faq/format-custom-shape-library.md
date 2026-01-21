@@ -7,7 +7,7 @@ categories: [Shapes, Features, Customisation]
 
 [Custom shape libraries](/blog/custom-libraries.html) are used to store custom shapes, favourite shapes, freehand shapes, icons, images and even custom templates (entire diagrams). 
 
-A custom library file is an XML file, which must have an enclosing ``<mxlibrary>`` node containing a JSON array and follow a specific format. 
+A custom library file is an XML file, which must have an enclosing ``<mxlibrary>`` node containing a JSON array and follow a specific format. The node has an optional ``tags`` attribute for searching library entries in the sidebar.
 
 ## Required properties
 
@@ -24,6 +24,7 @@ A custom library file is an XML file, which must have an enclosing ``<mxlibrary>
 ## Optional properties
 
 * ``title``: displayed when hovering over the shape in the custom library
+* ``tags``: space-separated list of tags for searching in the sidebar (all tags from the library are added to each entry)
 
 ## Examples:
 * A library file with [xml properties](https://raw.githubusercontent.com/jgraph/drawio-libs/review/libs/templates.xml) containing template diagrams
