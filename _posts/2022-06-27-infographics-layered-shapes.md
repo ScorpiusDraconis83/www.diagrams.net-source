@@ -37,7 +37,7 @@ Hover over shapes in the shape library to see a larger preview.
 <br /><img src="/assets/img/blog/infographic-resize-shape.png" style="width=100%;max-width:200px;height:auto;" alt="Resize and rotate a shape by clicking and dragging its 'grab handles' ">
 
 **3. Duplicate the shape:** Press ``Ctrl+D`` (``Cmd+D``) to copy and paste a [duplicate shape](/doc/faq/shape-duplicate.html). Drag the new shape to just below or next to the first shape, so they overlap a little.
-<br /><img src="/assets/img/blog/infographic-duplicated-shapes.png" style="width=100%;max-width:200px;height:auto;" alt="Reposition the duplicates to slighly overlap to create the layers in the infographic">
+<br /><img src="/assets/img/blog/infographic-duplicated-shapes.png" style="width=100%;max-width:200px;height:auto;" alt="Reposition the duplicates to slightly overlap to create the layers in the infographic">
 
 **4. Fix the order of the overlap:** Click on the buttons in the _Arrange_ tab on the right to [move the shapes forward and backwards](/blog/move-shapes-forwards-backwards.html) so they overlap correctly.
 <br /><img src="/assets/img/blog/infographic-order-shapes.png" style="width=100%;max-width:400px;height:auto;" alt="Move shapes forward or backward to fix the overlap order">

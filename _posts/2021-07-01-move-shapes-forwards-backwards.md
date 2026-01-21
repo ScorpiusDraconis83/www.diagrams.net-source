@@ -40,13 +40,16 @@ To move an entire layer's shapes in front of or behind another, you need to chan
 
 <img src="/assets/img/blog/layer-rearrange.gif" style="max-width:100%;height:auto;" alt="In the Layers dialog, drag a layer higher or lower to move its contents above or below shapes and connectors on the other layers">
 
+Alternatively, select a layer, open the Layers dialog menu, click on _Current Layer_ and choose to move the layer forwards or backwards. 
+<img src="/assets/img/blog/layers-z-order.png" style="max-width:100%;height:auto;" alt="Move the selected layer in front or or behind other layers via the Layers dialog">
+
 **Move a shape from a lower layer on top of higher layer shapes**
 
 To bring a shape from a lower layer to the front, you need to move it to a higher layer.
 
 1. Select the lower layer in the Layers dialog. 
-2. Select the shapes, connectors and text you want to move to another layer. 
-3. Click on the _Move selection to_ icon (a box with an arrow going into it vertically), then select the higher layer you want to move it to.
+2. Select the shapes, connectors and text you want to bring to a higher layer. 
+3. Open the Layers dialog menu (three horizontal lines), click on _Move Selection to_ and choose the target layer.
 
 **Note:** When you move shapes to a layer, they are placed in front of any existing shapes on that layer, just like when you add new shapes to a layer.
 
