@@ -23538,3 +23538,11 @@ label.btn {
   border: 0;
   border-top: 1px solid #d1d5da;
 }
+
+/* Preserve utility classes within article content */
+.article-content .font-size-1 {
+  font-size: 0.875rem;
+  margin-top: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
